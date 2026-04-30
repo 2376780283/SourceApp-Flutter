@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/data/data/com.termux/files/usr/opt/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/data/data/com.termux/files/home/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/data/data/com.termux/files/home/flutter_srceng_app/android/app/.cxx/Debug/2f5k2613/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/data/data/com.termux/files/home/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/data/data/com.termux/files/home/flutter_srceng_app/android/app/.cxx/Debug/2f5k2613/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
