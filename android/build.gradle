@@ -1,12 +1,10 @@
 buildscript {
-    ext.kotlin_version = '1.9.24'
     repositories {
         google()
         mavenCentral()
     }
-
     dependencies {
-        // Plugin version is managed in settings.gradle
+        classpath 'com.android.tools.build:gradle:9.0.0'
     }
 }
 
